@@ -11,6 +11,7 @@ class BraintreeForm extends Model
     public $amount;
     public $orderId;
     public $paymentMethodToken;
+    public $paymentMethodNonce;
 
     public $creditCard_number;
     public $creditCard_cvv;
